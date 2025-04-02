@@ -1,0 +1,9 @@
+﻿<Application x:Class="AnalizadorLexico.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AnalizadorLexico"
+             StartupUri="Vistas/Window1.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>
