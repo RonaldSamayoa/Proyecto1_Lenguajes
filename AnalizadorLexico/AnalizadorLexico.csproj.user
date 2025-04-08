@@ -5,5 +5,14 @@
     <Compile Update="Vistas\Window1.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Vistas\Window2.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\Window3.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Vistas\Window4.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

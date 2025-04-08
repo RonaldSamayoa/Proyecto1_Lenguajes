@@ -33,21 +33,32 @@
 
         <Button x:Name="btnAnalizar" Content="Analizar" 
                 HorizontalAlignment="Left" Margin="74,309,0,0" 
-                VerticalAlignment="Top" Height="20" Width="65" Grid.Column="1"/>
+                VerticalAlignment="Top" Height="20" Width="65" Grid.Column="1"
+                Click="btnAnalizar_Click"/>
 
         <Button x:Name="btnLimpiar" Content="Limpiar" 
                 HorizontalAlignment="Left" Margin="197,309,0,0" 
-                VerticalAlignment="Top" Height="20" Width="56" Grid.Column="1"/>
+                VerticalAlignment="Top" Height="20" Width="56" Grid.Column="1"
+                Click="Limpiar_Click"/>
 
         <RichTextBox x:Name="txtCodigoFuente" 
              TextChanged="txtCodigoFuente_TextChanged"
              HorizontalAlignment="Left" Height="185" 
              Margin="74,119,0,0" VerticalAlignment="Top" 
              Width="558" Grid.Column="1"/>
+        <TextBlock x:Name="lblPosicionCursor"
+           Text="Línea: 1, Columna: 1"
+           FontSize="16"
+           FontWeight="Bold"
+           Padding="10,2"
+           HorizontalAlignment="Center"
+           VerticalAlignment="Top" Grid.Column="1" Margin="0,312,0,0"/>
+
 
         <Button x:Name="btnBuscarPatron" Content="Buscar Patrón" 
                 HorizontalAlignment="Left" Margin="497,309,0,0" 
-                VerticalAlignment="Top" Grid.Column="1" Height="20" Width="76"/>
+                VerticalAlignment="Top" Grid.Column="1" Height="20" Width="76"
+                Click="btnBuscarPatron_Click"/>
     </Grid>
 </Window>
 

@@ -1,24 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 using Microsoft.Win32;
 using System.IO;
+using AnalizadorLexico.Analizador;
+using AnalizadorLexico.Vistas;
 
 namespace AnalizadorLexico.Vistas
 {
-    /// <summary>
     /// Lógica de interacción para Window1 (Ventana Inicial)
-    /// // </summary>
+
     public partial class Window1 : Window
     {
         private bool cambiosSinGuardar = false; // Para saber si hay cambios en el editor
@@ -27,6 +18,7 @@ namespace AnalizadorLexico.Vistas
         {
             InitializeComponent();
             txtCodigoFuente.TextChanged += TxtCodigoFuente_TextChanged;
+            txtCodigoFuente.SelectionChanged += TxtCodigoFuente_SelectionChanged;
         }
 
         private bool HayCambiosSinGuardar()
@@ -55,7 +47,6 @@ namespace AnalizadorLexico.Vistas
                     return; // No hace nada si el usuario cancela
                 }
             }
-
             txtCodigoFuente.Document.Blocks.Clear(); // Borra el texto del RichTextBox
             rutaArchivo = string.Empty; // Resetea la ruta del archivo
         }
@@ -127,31 +118,118 @@ namespace AnalizadorLexico.Vistas
 
         private void Copiar_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Opción 'Copiar' seleccionada.");
+            txtCodigoFuente.Copy();
         }
 
         private void Pegar_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Opción 'Pegar' seleccionada.");
+            txtCodigoFuente.Paste();
         }
 
         private void Deshacer_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Opción 'Deshacer' seleccionada.");
+            if (txtCodigoFuente.CanUndo)
+            {
+                txtCodigoFuente.Undo();
+            }
         }
 
         private void Rehacer_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Opción 'Rehacer' seleccionada.");
+            if (txtCodigoFuente.CanRedo)
+            {
+                txtCodigoFuente.Redo();
+            }
         }
 
         private void AcercaDe_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Aplicación desarrollada por [Tu Nombre].");
+            MessageBox.Show("Aplicación desarrollada por: \n" +
+                            "Ronald Renán Samayoa Martínez \n" +
+                            "Carnet: 202031046");
         }
         private void txtCodigoFuente_TextChanged(object sender, TextChangedEventArgs e)
         {
             cambiosSinGuardar = true;
+        }
+        private void TxtCodigoFuente_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+            TextPointer caretPosition = txtCodigoFuente.CaretPosition;
+            TextPointer start = txtCodigoFuente.Document.ContentStart;
+
+            int line = 1;
+            int column = 1;
+
+            TextRange fullText = new TextRange(start, caretPosition);
+            string textUpToCaret = fullText.Text;
+
+            int lastNewLineIndex = textUpToCaret.LastIndexOf('\n');
+
+            if (lastNewLineIndex == -1)
+            {
+                // No hay saltos de línea antes del cursor → Estamos en la primera línea
+                column = textUpToCaret.Length + 1;
+            }
+            else
+            {
+                // Contamos cuántos saltos de línea hay para determinar la línea actual
+                line = textUpToCaret.Count(c => c == '\n') + 1;
+                column = textUpToCaret.Length - lastNewLineIndex;
+            }
+
+            lblPosicionCursor.Text = $"Línea: {line}, Columna: {column}";
+        }
+        //botones
+        private void Limpiar_Click(object sender, RoutedEventArgs e)
+        {
+            txtCodigoFuente.Document.Blocks.Clear(); // Borra el contenido del RichTextBox
+            cambiosSinGuardar = false; // Reinicia el estado de cambios
+        }
+
+        private async void btnAnalizar_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // Obtener el texto del RichTextBox
+                TextRange textRange = new TextRange(txtCodigoFuente.Document.ContentStart, txtCodigoFuente.Document.ContentEnd);
+                string codigoFuente = textRange.Text;
+
+                // Ejecutar el análisis en un hilo separado
+                var tokens = await Task.Run(() =>
+                {
+                    var analizador = new Analizador.AnalizadorLexico(codigoFuente);
+                    return analizador.Analizar();
+                });
+
+                // Verificar si hay errores
+                var errores = tokens.Where(t => t.Tipo == Modelos.TipoToken.Error).ToList();
+
+                // Usar Dispatcher.Invoke para actualizar la UI de manera segura
+                Dispatcher.Invoke(() =>
+                {
+                    if (errores.Any())
+                    {
+                        // Mostrar ventana de errores
+                        var ventanaErrores = new Window2(errores);
+                        ventanaErrores.Show();
+                    }
+                    else
+                    {
+                        // Mostrar tokens
+                        var ventanaTokens = new Window3(tokens);
+                        ventanaTokens.Show();
+                    }
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error durante el análisis: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+        }
+        private void btnBuscarPatron_Click(object sender, RoutedEventArgs e)
+        {
+            var ventanaBuscar = new Window4(txtCodigoFuente);
+            ventanaBuscar.ShowDialog();
         }
 
     }
