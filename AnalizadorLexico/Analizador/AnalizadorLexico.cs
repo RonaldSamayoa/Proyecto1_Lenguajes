@@ -44,18 +44,64 @@ namespace AnalizadorLexico.Analizador
             while (posicion < entrada.Length)
             {
                 char actual = entrada[posicion];
-                IAutomata? automata = automatas.FirstOrDefault(a => a.PuedeAnalizar(actual));
-                Token? token = automata?.Reconocer(entrada, ref posicion, ref linea, ref columna);
+                Token? tokenReconocido = null;
 
-                if (token != null && token.Tipo != TipoToken.CaracterEspecial) // ignorar espacios/tabulaciones
+                // Intentar con los autómatas
+                foreach (var automata in automatas)
                 {
-                    tokens.Add(token);
+                    if (automata.PuedeAnalizar(actual))
+                    {
+                        tokenReconocido = automata.Reconocer(entrada, ref posicion, ref linea, ref columna);
+                        break;
+                    }
+                }
+
+                // Si no se reconoció nada, usamos AutomataError
+                if (tokenReconocido == null)
+                {
+                    var automataError = automatas.OfType<AutomataError>().FirstOrDefault();
+                    if (automataError != null)
+                    {
+                        tokenReconocido = automataError.Reconocer(entrada, ref posicion, ref linea, ref columna);
+                    }
+                    else
+                    {
+                        // Seguridad extrema: avanzar a mano
+                        posicion++;
+                        columna++;
+                        continue;
+                    }
+                }
+
+                if (tokenReconocido != null && tokenReconocido.Tipo != TipoToken.CaracterEspecial)
+                {
+                    tokens.Add(tokenReconocido);
                 }
             }
 
             tokens.Add(new Token(TipoToken.FinDeLinea, string.Empty, linea, columna));
             return tokens;
         }
+
+        // Método para avanzar en la entrada
+        private void Avanzar(string entrada, ref int posicion, ref int linea, ref int columna)
+        {
+            if (posicion < entrada.Length)
+            {
+                char actual = entrada[posicion++];
+                if (actual == '\n')
+                {
+                    linea++;
+                    columna = 1;
+                }
+                else
+                {
+                    columna++;
+                }
+            }
+        }
+
+
 
         public List<Token> ObtenerTokens()
         {

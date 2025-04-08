@@ -15,9 +15,13 @@ namespace AnalizadorLexico.Analizador.Automatas
             int columnaInicio = columna;
             bool esDecimal = false;
 
-            // Paso 1: signo opcional
+            // Paso 1: signo opcional (solo si va seguido de dígito)
             if (entrada[posicion] == '+' || entrada[posicion] == '-')
             {
+                if (posicion + 1 >= entrada.Length || !EsNumero(entrada[posicion + 1]))
+                {
+                    return null; // No es número, dejar que AutomataOperadores lo procese
+                }
                 Avanzar(entrada, ref posicion, ref linea, ref columna);
                 if (posicion >= entrada.Length) return null;
             }

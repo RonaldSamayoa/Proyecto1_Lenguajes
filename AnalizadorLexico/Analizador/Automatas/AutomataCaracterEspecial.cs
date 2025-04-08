@@ -11,30 +11,15 @@ namespace AnalizadorLexico.Analizador.Automatas
     {
         public bool PuedeAnalizar(char actual)
         {
-            return actual == ' ' || actual == '\n' || actual == '\t' || actual == '\r' || actual == '\f';
+            return actual == ' ' || actual == '\n' || actual == '\r' || actual == '\t' || actual == '\f';
         }
 
         public Token? Reconocer(string entrada, ref int posicion, ref int linea, ref int columna)
         {
-            char actual = entrada[posicion];
-
-            if (!PuedeAnalizar(actual))
+            if (posicion >= entrada.Length)
                 return null;
 
-            int columnaInicio = columna;
-
-            Avanzar(entrada, ref posicion, ref linea, ref columna);
-
-            // Se reconoce pero se ignora: devuelve null para no registrar el token
-            return null;
-        }
-
-        private void Avanzar(string entrada, ref int posicion, ref int linea, ref int columna)
-        {
-            if (posicion >= entrada.Length)
-                return;
-
-            char actual = entrada[posicion++];
+            char actual = entrada[posicion];
 
             if (actual == '\n')
             {
@@ -45,6 +30,11 @@ namespace AnalizadorLexico.Analizador.Automatas
             {
                 columna++;
             }
+
+            posicion++;
+
+            // No se retorna token porque debe ser ignorado
+            return new Token(TipoToken.CaracterEspecial, actual.ToString(), linea, columna);
         }
     }
 }

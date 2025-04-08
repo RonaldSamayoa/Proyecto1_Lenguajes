@@ -8,9 +8,11 @@ namespace AnalizadorLexico.Analizador.Automatas
             // Siempre puede analizar, es el "último recurso"
             return true;
         }
-
         public Token? Reconocer(string entrada, ref int posicion, ref int linea, ref int columna)
         {
+            if (posicion >= entrada.Length)
+                return null;
+
             int columnaInicio = columna;
             char simbolo = entrada[posicion];
             Avanzar(entrada, ref posicion, ref linea, ref columna);
