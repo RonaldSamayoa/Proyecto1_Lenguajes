@@ -4,12 +4,12 @@ namespace AnalizadorLexico.Analizador
 {
     public class AnalizadorLexico
     {
-        private readonly List<IAutomata> automatas;
-        private readonly List<Token> tokens;
+        private readonly List<IAutomata> automatas;// Lista de autómatas para reconocer los distintos tipos de tokens
+        private readonly List<Token> tokens; // Lista de tokens reconocidos tras el análisis
         private int posicion;
         private int linea;
         private int columna;
-        private readonly string entrada;
+        private readonly string entrada; // Código fuente que se desea analizar
 
         public AnalizadorLexico(string codigoFuente)
         {
@@ -37,16 +37,17 @@ namespace AnalizadorLexico.Analizador
             linea = 1;
             columna = 1;
         }
+        // Método principal para analizar el texto de entrada y generar los tokens
         public List<Token> Analizar()
         {
-            tokens.Clear();
+            tokens.Clear(); // Limpiar cualquier resultado previo
 
-            while (posicion < entrada.Length)
+            while (posicion < entrada.Length) // Se analiza mientras no se llegue al final de la entrada
             {
                 char actual = entrada[posicion];
                 Token? tokenReconocido = null;
 
-                // Intentar con los autómatas
+                // Se prueba cada autómata para ver cuál puede procesar el carácter actual
                 foreach (var automata in automatas)
                 {
                     if (automata.PuedeAnalizar(actual))
@@ -72,13 +73,13 @@ namespace AnalizadorLexico.Analizador
                         continue;
                     }
                 }
-
+                // Se agrega el token reconocido, salvo que sea un carácter especial
                 if (tokenReconocido != null && tokenReconocido.Tipo != TipoToken.CaracterEspecial)
                 {
                     tokens.Add(tokenReconocido);
                 }
             }
-
+            // Al final, se agrega un token que indica fin de línea o fin de archivo
             tokens.Add(new Token(TipoToken.FinDeLinea, string.Empty, linea, columna));
             return tokens;
         }

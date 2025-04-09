@@ -11,7 +11,7 @@ namespace AnalizadorLexico.Analizador.Automatas
     {
         public bool PuedeAnalizar(char actual)
         {
-            return actual == '.' || actual == ',' || actual == ':' || actual == ';';
+            return actual == '.' || actual == ',' || actual == ':' || actual == ';'; // Detecta signos de puntuación comunes
         }
 
         public Token? Reconocer(string entrada, ref int posicion, ref int linea, ref int columna)
@@ -20,15 +20,14 @@ namespace AnalizadorLexico.Analizador.Automatas
 
             if (posicion < entrada.Length)
             {
-                char actual = entrada[posicion];
+                char actual = entrada[posicion]; // Obtiene el carácter actual desde la entrada
 
-                if (PuedeAnalizar(actual))
+                if (PuedeAnalizar(actual))  // Verifica si el carácter es un signo de puntuación válido
                 {
                     Avanzar(entrada, ref posicion, ref linea, ref columna);
                     return new Token(TipoToken.SignoPuntuacion, actual.ToString(), linea, columnaInicio);
                 }
             }
-
             return null;
         }
 

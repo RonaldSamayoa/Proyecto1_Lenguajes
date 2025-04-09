@@ -6,7 +6,7 @@ namespace AnalizadorLexico.Analizador.Automatas
     {
         public bool PuedeAnalizar(char actual)
         {
-            return actual == '+' || actual == '-' || (actual >= '0' && actual <= '9');
+            return actual == '+' || actual == '-' || (actual >= '0' && actual <= '9'); // Puede iniciar con signo o dígito
         }
 
         public Token? Reconocer(string entrada, ref int posicion, ref int linea, ref int columna)
@@ -16,7 +16,7 @@ namespace AnalizadorLexico.Analizador.Automatas
             bool esDecimal = false;
 
             // Paso 1: signo opcional (solo si va seguido de dígito)
-            if (entrada[posicion] == '+' || entrada[posicion] == '-')
+            if (entrada[posicion] == '+' || entrada[posicion] == '-')  // Verifica si hay signo al inicio
             {
                 if (posicion + 1 >= entrada.Length || !EsNumero(entrada[posicion + 1]))
                 {
@@ -60,7 +60,7 @@ namespace AnalizadorLexico.Analizador.Automatas
                 while (posicion < entrada.Length && EsNumero(entrada[posicion]))
                     Avanzar(entrada, ref posicion, ref linea, ref columna);
 
-                // Si hay punto → es decimal
+                // Si hay punto, entonces es decimal
                 if (posicion < entrada.Length && entrada[posicion] == '.')
                 {
                     esDecimal = true;

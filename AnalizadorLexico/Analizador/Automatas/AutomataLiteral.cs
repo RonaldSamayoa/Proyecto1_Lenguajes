@@ -17,21 +17,20 @@ namespace AnalizadorLexico.Analizador.Automatas
 
             int inicio = posicion;
             int columnaInicio = columna;
-            char comillaApertura = entrada[posicion];
+            char comillaApertura = entrada[posicion]; // Guarda el tipo de comilla (simple o doble)
 
-            // Asegurarse que empieza con comilla válida
-            if (comillaApertura != '"' && comillaApertura != '\'')
+            // Solo puede si empieza con comilla doble (") o simple (')
+            if (comillaApertura != '"' && comillaApertura != '\'') 
                 return null;
 
-            Avanzar(entrada, ref posicion, ref linea, ref columna); // Consumimos la comilla inicial
+            Avanzar(entrada, ref posicion, ref linea, ref columna); // Consumimos una comilla inicial
 
             while (posicion < entrada.Length)
             {
                 char actual = entrada[posicion];
 
-                if (actual == '\n')
+                if (actual == '\n') // Si se encuentra un salto de línea antes de cerrar el literal, es un error
                 {
-                    // No se permite salto de línea en cadena
                     return new Token(TipoToken.Error, entrada.Substring(inicio, posicion - inicio), linea, columnaInicio);
                 }
 

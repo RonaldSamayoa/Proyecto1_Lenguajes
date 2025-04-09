@@ -4,13 +4,13 @@
     {
         public TipoToken Tipo { get; }
         public string Valor { get; }
-        public int Linea { get; }  // Nueva propiedad para rastrear línea
-        public int Columna { get; } // Nueva propiedad para rastrear columna
+        public int Linea { get; }  // propiedad para rastrear línea
+        public int Columna { get; } // propiedad para rastrear columna
 
         public Token(TipoToken tipo, string valor, int linea, int columna)
         {
-            Tipo = tipo;
-            Valor = valor;
+            Tipo = tipo;    //tipo de token
+            Valor = valor; //lexema
             Linea = linea;
             Columna = columna;
         }

@@ -14,19 +14,19 @@ namespace AnalizadorLexico.Analizador.Automatas
         {
             int inicio = posicion;
             int columnaInicio = columna;
-
+            // Verifica que efectivamente comience con '$'
             if (entrada[posicion] != '$')
                 return null;
-
+            // Avanza una posición (consume el '$')
             Avanzar(entrada, ref posicion, ref linea, ref columna); // Salta el '$'
-
+            // Mientras siga habiendo letras, números, guiones bajos o medios
             while (posicion < entrada.Length &&
                    (EsLetra(entrada[posicion]) || EsNumero(entrada[posicion]) || 
                    entrada[posicion] == '_' || entrada[posicion] == '-'))
             {
                 Avanzar(entrada, ref posicion, ref linea, ref columna);
             }
-
+            // Extrae el lexema completo
             string lexema = entrada.Substring(inicio, posicion - inicio);
             return new Token(TipoToken.Identificador, lexema, linea, columnaInicio);
         }

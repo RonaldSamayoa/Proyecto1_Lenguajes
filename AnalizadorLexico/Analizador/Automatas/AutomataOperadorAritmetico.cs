@@ -5,6 +5,7 @@ namespace AnalizadorLexico.Analizador.Automatas
     {
         public bool PuedeAnalizar(char actual)
         {
+            // Verifica si es operador aritmético válido
             return actual == '+' || actual == '-' || actual == '*' || actual == '/' || actual == '^';
         }
 
@@ -18,7 +19,7 @@ namespace AnalizadorLexico.Analizador.Automatas
 
             char actual = entrada[posicion];
 
-            if (PuedeAnalizar(actual))
+            if (PuedeAnalizar(actual)) // Confirma si el símbolo actual es un operador reconocido
             {
                 Avanzar(entrada, ref posicion, ref linea, ref columna);
                 string lexema = entrada.Substring(inicio, 1);

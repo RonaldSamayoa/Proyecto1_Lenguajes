@@ -22,7 +22,7 @@ namespace AnalizadorLexico.Analizador.Automatas
             int inicio = posicion;
             int columnaInicio = columna;
 
-            while (posicion < entrada.Length && EsLetra(entrada[posicion]))
+            while (posicion < entrada.Length && EsLetra(entrada[posicion])) // Consume letras consecutivas para formar un posible lexema
             {
                 Avanzar(entrada, ref posicion, ref linea, ref columna);
             }
@@ -30,15 +30,15 @@ namespace AnalizadorLexico.Analizador.Automatas
             string lexema = entrada.Substring(inicio, posicion - inicio);
 
             // Validar si es palabra reservada exacta
-            foreach (var palabra in palabrasReservadas)
+            foreach (var palabra in palabrasReservadas) // Recorre todas las palabras reservadas
             {
-                if (lexema == palabra)
+                if (lexema == palabra) // Verifica coincidencia exacta con una palabra reservada
                 {
                     return new Token(TipoToken.PalabraReservada, lexema, linea, columnaInicio);
                 }
             }
 
-            // No es palabra reservada
+            // Si no es palabra reservada, restaura la posición
             posicion = inicio;
             columna = columnaInicio;
             return null;

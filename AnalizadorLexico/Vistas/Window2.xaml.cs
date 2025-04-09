@@ -11,7 +11,7 @@ namespace AnalizadorLexico.Vistas
         public Window2(List<Token> errores)
         {
             InitializeComponent();
-            lstErrores.ItemsSource = errores;
+            lstErrores.ItemsSource = errores; // Asigna la lista de errores a la fuente de datos del ListBox
         }
     }
 }

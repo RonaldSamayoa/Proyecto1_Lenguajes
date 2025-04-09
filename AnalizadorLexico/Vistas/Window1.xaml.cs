@@ -17,9 +17,9 @@ namespace AnalizadorLexico.Vistas
         public Window1()
         {
             InitializeComponent();
-            txtCodigoFuente.TextChanged += TxtCodigoFuente_TextChanged;
-            txtCodigoFuente.SelectionChanged += TxtCodigoFuente_SelectionChanged;
-            this.Closing += Window1_Closing;
+            txtCodigoFuente.TextChanged += TxtCodigoFuente_TextChanged; // Evento para detectar cambios en el texto
+            txtCodigoFuente.SelectionChanged += TxtCodigoFuente_SelectionChanged; // Evento para mostrar posición del cursor
+            this.Closing += Window1_Closing; // Evento que se dispara al cerrar la ventana
         }
 
         private bool HayCambiosSinGuardar()
@@ -28,7 +28,7 @@ namespace AnalizadorLexico.Vistas
         }
         private void TxtCodigoFuente_TextChanged(object sender, TextChangedEventArgs e)
         {
-            cambiosSinGuardar = true;
+            cambiosSinGuardar = true; // Marca que el contenido ha sido modificado
         }
 
         private void Nuevo_Click(object sender, RoutedEventArgs e)
@@ -48,8 +48,8 @@ namespace AnalizadorLexico.Vistas
                     return; // No hace nada si el usuario cancela
                 }
             }
-            txtCodigoFuente.Document.Blocks.Clear(); // Borra el texto del RichTextBox
-            rutaArchivo = string.Empty; // Resetea la ruta del archivo
+            txtCodigoFuente.Document.Blocks.Clear(); // Limpia el texto del editor
+            rutaArchivo = string.Empty; // Reinicia la ruta del archivo al crear uno nuevo
         }
 
         private void Abrir_Click(object sender, RoutedEventArgs e)
@@ -60,7 +60,7 @@ namespace AnalizadorLexico.Vistas
                 if (resultado == MessageBoxResult.No)
                     return;
             }
-
+            // Diálogo para abrir archivos
             OpenFileDialog openFileDialog = new OpenFileDialog
             {
                 Filter = "Archivos de texto (*.txt)|*.txt|Todos los archivos (*.*)|*.*"
@@ -69,12 +69,11 @@ namespace AnalizadorLexico.Vistas
             if (openFileDialog.ShowDialog() == true)
             {
                 rutaArchivo = openFileDialog.FileName;
-                string contenido = File.ReadAllText(rutaArchivo);
+                string contenido = File.ReadAllText(rutaArchivo); // Lee el contenido del archivo
 
                 // Limpiar y cargar el texto en el RichTextBox
                 txtCodigoFuente.Document.Blocks.Clear();
-                txtCodigoFuente.Document.Blocks.Add(new Paragraph(new Run(contenido)));
-
+                txtCodigoFuente.Document.Blocks.Add(new Paragraph(new Run(contenido))); // Carga el contenido en el editor
                 cambiosSinGuardar = false;
             }
         }
@@ -170,19 +169,19 @@ namespace AnalizadorLexico.Vistas
         } 
         private void Copiar_Click(object sender, RoutedEventArgs e)
         {
-            txtCodigoFuente.Copy();
+            txtCodigoFuente.Copy(); // Copia el texto seleccionado al portapapeles
         }
 
         private void Pegar_Click(object sender, RoutedEventArgs e)
         {
-            txtCodigoFuente.Paste();
+            txtCodigoFuente.Paste(); // Pega texto del portapapeles
         }
 
         private void Deshacer_Click(object sender, RoutedEventArgs e)
         {
             if (txtCodigoFuente.CanUndo)
             {
-                txtCodigoFuente.Undo();
+                txtCodigoFuente.Undo(); // Deshace la última acción
             }
         }
 
@@ -190,7 +189,7 @@ namespace AnalizadorLexico.Vistas
         {
             if (txtCodigoFuente.CanRedo)
             {
-                txtCodigoFuente.Redo();
+                txtCodigoFuente.Redo(); // Rehace la última acción deshecha
             }
         }
 
@@ -215,7 +214,7 @@ namespace AnalizadorLexico.Vistas
             TextRange fullText = new TextRange(start, caretPosition);
             string textUpToCaret = fullText.Text;
 
-            int lastNewLineIndex = textUpToCaret.LastIndexOf('\n');
+            int lastNewLineIndex = textUpToCaret.LastIndexOf('\n'); // Encuentra la última línea antes del cursor
 
             if (lastNewLineIndex == -1)
             {
@@ -229,7 +228,7 @@ namespace AnalizadorLexico.Vistas
                 column = textUpToCaret.Length - lastNewLineIndex;
             }
 
-            lblPosicionCursor.Text = $"Línea: {line}, Columna: {column}";
+            lblPosicionCursor.Text = $"Línea: {line}, Columna: {column}"; // Actualiza la etiqueta con la posición del cursor
         }
         //botones
         private void Limpiar_Click(object sender, RoutedEventArgs e)
@@ -243,10 +242,10 @@ namespace AnalizadorLexico.Vistas
             try
             {
                 // Obtener el texto del RichTextBox
-                TextRange textRange = new TextRange(txtCodigoFuente.Document.ContentStart, txtCodigoFuente.Document.ContentEnd);
-                string codigoFuente = textRange.Text;
+                TextRange textRange = new TextRange(txtCodigoFuente.Document.ContentStart, txtCodigoFuente.Document.ContentEnd); // Captura el código fuente
+                string codigoFuente = textRange.Text;  // Extrae el texto plano del editor
 
-                // Ejecutar el análisis en un hilo separado
+                // Ejecuta el análisis léxico en segundo plano
                 var tokens = await Task.Run(() =>
                 {
                     var analizador = new Analizador.AnalizadorLexico(codigoFuente);
@@ -254,7 +253,7 @@ namespace AnalizadorLexico.Vistas
                 });
 
                 // Verificar si hay errores
-                var errores = tokens.Where(t => t.Tipo == Modelos.TipoToken.Error).ToList();
+                var errores = tokens.Where(t => t.Tipo == Modelos.TipoToken.Error).ToList(); //filtra tokens de error
 
                 // Usar Dispatcher.Invoke para actualizar la interfaz de usuario de manera segura
                 Dispatcher.Invoke(() =>
@@ -280,7 +279,7 @@ namespace AnalizadorLexico.Vistas
         }
         private void btnBuscarPatron_Click(object sender, RoutedEventArgs e)
         {
-            var ventanaBuscar = new Window4(txtCodigoFuente);
+            var ventanaBuscar = new Window4(txtCodigoFuente); // Lleva a la ventana de buscar un patrón
             ventanaBuscar.ShowDialog();
         }
     }

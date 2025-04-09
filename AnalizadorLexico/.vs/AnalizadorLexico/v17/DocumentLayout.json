@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\analizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\analizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\vistas\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:vistas\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:vistas\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataoperadoraritmetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataoperadoraritmetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\vistas\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:vistas\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\vistas\\window3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,12 +35,16 @@
       "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:vistas\\window2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\vistas\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:vistas\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\modelos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:modelos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\vistas\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:vistas\\window4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\modelos\\tipotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:modelos\\tipotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\iautomata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\iautomata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automatasignospuntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,48 +67,36 @@
       "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataoperadorlogico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automatanumero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automatanumero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataoperadorasignacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataoperadorasignacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataliteral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataoperadoraritmetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataoperadoraritmetico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automatanumero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automatanumero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataidentificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataidentificador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automataerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automataerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automatacomentariolinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automatacomentariolinea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automatacaracterespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automatacaracterespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automatacomentariobloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automatacomentariobloque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\analizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\analizadorlexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\automatas\\automatacaracterespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\automatas\\automatacaracterespecial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\analizador\\iautomata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:analizador\\iautomata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\modelos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:modelos\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\modelos\\tipotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:modelos\\tipotoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|c:\\users\\ronal\\onedrive\\desktop\\analizadorlexico\\analizadorlexico\\vistas\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EE4F3584-E477-4074-AB27-8DB0056C646D}|AnalizadorLexico.csproj|solutionrelative:vistas\\window2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ronal\\AppData\\Local\\Temp\\5abfb520-8127-4ae8-8707-ecb34eaac958_AnalizadorLexico.zip.958\\AnalizadorLexico\\Analizador\\AnalizadorLexico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -125,273 +129,117 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Window4.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window4.xaml.cs",
-              "RelativeDocumentMoniker": "Vistas\\Window4.xaml.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window4.xaml.cs",
-              "RelativeToolTip": "Vistas\\Window4.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "Vistas\\Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window1.xaml.cs",
+              "RelativeToolTip": "Vistas\\Window1.xaml.cs",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAYwBkBAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-06T12:02:13.525Z"
+              "WhenOpened": "2025-04-01T13:19:18.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Window3.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window3.xaml.cs",
               "RelativeDocumentMoniker": "Vistas\\Window3.xaml.cs",
               "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window3.xaml.cs",
               "RelativeToolTip": "Vistas\\Window3.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwAkAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwBcAAABpAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T16:12:05.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T16:12:05.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Window2.xaml",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml",
-              "RelativeDocumentMoniker": "Vistas\\Window2.xaml",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml",
-              "RelativeToolTip": "Vistas\\Window2.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-02T09:19:12.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AutomataOperadorAritmetico.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T05:48:28.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Window1.xaml",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window1.xaml",
               "RelativeDocumentMoniker": "Vistas\\Window1.xaml",
               "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window1.xaml",
               "RelativeToolTip": "Vistas\\Window1.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-01T15:02:00.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T15:02:00.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Window1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window1.xaml.cs",
-              "RelativeDocumentMoniker": "Vistas\\Window1.xaml.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window1.xaml.cs",
-              "RelativeToolTip": "Vistas\\Window1.xaml.cs",
-              "ViewState": "AgIAAJsAAAAAAAAAAAAAwKkAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T13:19:18.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Window2.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml.cs",
-              "RelativeDocumentMoniker": "Vistas\\Window2.xaml.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml.cs",
-              "RelativeToolTip": "Vistas\\Window2.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T16:11:13.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AutomataSignosPuntuacion.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T07:03:20.337Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AutomataSignosAgrupacion.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAYwB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T07:04:44.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AutomataPalabraReservada.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataPalabraReservada.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataPalabraReservada.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataPalabraReservada.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataPalabraReservada.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwC4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T06:33:37.821Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AutomataOperadorRelacional.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorRelacional.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataOperadorRelacional.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorRelacional.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataOperadorRelacional.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T05:48:52.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AutomataOperadorLogico.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorLogico.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataOperadorLogico.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorLogico.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataOperadorLogico.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAYwFEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T06:33:16.505Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AutomataNumero.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataNumero.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataNumero.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataNumero.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataNumero.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAApwFAAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T05:46:09.065Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AutomataLiteral.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataLiteral.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataLiteral.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataLiteral.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataLiteral.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAYwAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T05:46:17.593Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "AutomataIdentificador.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataIdentificador.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataIdentificador.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataIdentificador.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataIdentificador.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAApwCUAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T05:45:27.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "AutomataError.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataError.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataError.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataError.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataError.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T06:33:45.251Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AutomataComentarioLinea.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioLinea.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataComentarioLinea.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioLinea.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataComentarioLinea.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T07:40:28.111Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AutomataCaracterEspecial.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataCaracterEspecial.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataCaracterEspecial.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataCaracterEspecial.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataCaracterEspecial.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T06:34:43.107Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "AutomataComentarioBloque.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioBloque.cs",
-              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataComentarioBloque.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioBloque.cs",
-              "RelativeToolTip": "Analizador\\Automatas\\AutomataComentarioBloque.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T05:48:20.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 1,
               "Title": "AnalizadorLexico.cs",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\AnalizadorLexico.cs",
               "RelativeDocumentMoniker": "Analizador\\AnalizadorLexico.cs",
               "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\AnalizadorLexico.cs",
               "RelativeToolTip": "Analizador\\AnalizadorLexico.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB4AAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-30T00:04:18.16Z"
+              "WhenOpened": "2025-03-30T00:04:18.16Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IAutomata.cs",
-              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\IAutomata.cs",
-              "RelativeDocumentMoniker": "Analizador\\IAutomata.cs",
-              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\IAutomata.cs",
-              "RelativeToolTip": "Analizador\\IAutomata.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AutomataLiteral.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataLiteral.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataLiteral.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataLiteral.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataLiteral.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T06:57:40.848Z"
+              "WhenOpened": "2025-04-05T05:46:17.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 0,
+              "Title": "AutomataError.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataError.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataError.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataError.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:33:45.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Window4.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window4.xaml.cs",
+              "RelativeDocumentMoniker": "Vistas\\Window4.xaml.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window4.xaml.cs",
+              "RelativeToolTip": "Vistas\\Window4.xaml.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAYwFIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T12:02:13.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Window2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml.cs",
+              "RelativeDocumentMoniker": "Vistas\\Window2.xaml.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml.cs",
+              "RelativeToolTip": "Vistas\\Window2.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T16:11:13.988Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Modelos\\Token.cs",
               "RelativeDocumentMoniker": "Modelos\\Token.cs",
               "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Modelos\\Token.cs",
               "RelativeToolTip": "Modelos\\Token.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwBYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-30T00:03:06.895Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 9,
               "Title": "TipoToken.cs",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Modelos\\TipoToken.cs",
               "RelativeDocumentMoniker": "Modelos\\TipoToken.cs",
@@ -403,7 +251,174 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAutomata.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\IAutomata.cs",
+              "RelativeDocumentMoniker": "Analizador\\IAutomata.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\IAutomata.cs",
+              "RelativeToolTip": "Analizador\\IAutomata.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:57:40.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AutomataSignosPuntuacion.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataSignosPuntuacion.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T07:03:20.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AutomataSignosAgrupacion.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataSignosAgrupacion.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBYAAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T07:04:44.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AutomataPalabraReservada.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataPalabraReservada.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataPalabraReservada.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataPalabraReservada.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataPalabraReservada.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:33:37.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AutomataOperadorRelacional.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorRelacional.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataOperadorRelacional.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorRelacional.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataOperadorRelacional.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:48:52.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AutomataOperadorLogico.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorLogico.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataOperadorLogico.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorLogico.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataOperadorLogico.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAgwEgAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:33:16.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AutomataOperadorAsignacion.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorAsignacion.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataOperadorAsignacion.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorAsignacion.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataOperadorAsignacion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T17:24:05.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AutomataOperadorAritmetico.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataOperadorAritmetico.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBUAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:48:28.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AutomataNumero.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataNumero.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataNumero.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataNumero.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataNumero.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwD8AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:46:09.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AutomataIdentificador.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataIdentificador.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataIdentificador.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataIdentificador.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataIdentificador.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAQwBwAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:45:27.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AutomataComentarioLinea.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioLinea.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataComentarioLinea.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioLinea.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataComentarioLinea.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T07:40:28.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AutomataComentarioBloque.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioBloque.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataComentarioBloque.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataComentarioBloque.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataComentarioBloque.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwDUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T05:48:20.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AutomataCaracterEspecial.cs",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataCaracterEspecial.cs",
+              "RelativeDocumentMoniker": "Analizador\\Automatas\\AutomataCaracterEspecial.cs",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Analizador\\Automatas\\AutomataCaracterEspecial.cs",
+              "RelativeToolTip": "Analizador\\Automatas\\AutomataCaracterEspecial.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T06:34:43.107Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 23,
+              "Title": "Window2.xaml",
+              "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml",
+              "RelativeDocumentMoniker": "Vistas\\Window2.xaml",
+              "ToolTip": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window2.xaml",
+              "RelativeToolTip": "Vistas\\Window2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-02T09:19:12.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "AnalizadorLexico.cs",
               "DocumentMoniker": "C:\\Users\\ronal\\AppData\\Local\\Temp\\5abfb520-8127-4ae8-8707-ecb34eaac958_AnalizadorLexico.zip.958\\AnalizadorLexico\\Analizador\\AnalizadorLexico.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Local\\Temp\\5abfb520-8127-4ae8-8707-ecb34eaac958_AnalizadorLexico.zip.958\\AnalizadorLexico\\Analizador\\AnalizadorLexico.cs",
@@ -416,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "Window4.xaml",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window4.xaml",
               "RelativeDocumentMoniker": "Vistas\\Window4.xaml",
@@ -427,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Window3.xaml",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\Vistas\\Window3.xaml",
               "RelativeDocumentMoniker": "Vistas\\Window3.xaml",
@@ -438,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "AssemblyInfo.cs",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
@@ -450,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "AnalizadorLexico.csproj",
               "DocumentMoniker": "C:\\Users\\ronal\\OneDrive\\Desktop\\AnalizadorLexico\\AnalizadorLexico\\AnalizadorLexico.csproj",
               "RelativeDocumentMoniker": "AnalizadorLexico.csproj",

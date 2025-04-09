@@ -5,7 +5,7 @@ namespace AnalizadorLexico.Analizador.Automatas
     {
         public bool PuedeAnalizar(char actual)
         {
-            return actual == '>' || actual == '<';
+            return actual == '>' || actual == '<'; // Analiza comparadores relacionales básicos
         }
 
         public Token? Reconocer(string entrada, ref int posicion, ref int linea, ref int columna)
@@ -18,21 +18,20 @@ namespace AnalizadorLexico.Analizador.Automatas
 
             char actual = entrada[posicion];
 
-            if (actual == '>' || actual == '<')
+            if (actual == '>' || actual == '<') // Verifica que sea uno de los símbolos relacionales
             {
                 Avanzar(entrada, ref posicion, ref linea, ref columna);
 
-                if (posicion < entrada.Length && entrada[posicion] == '=')
+                if (posicion < entrada.Length && entrada[posicion] == '=') // Verifica si es comparador compuesto (>= o <=)
                 {
                     Avanzar(entrada, ref posicion, ref linea, ref columna);
-                    string lexema = entrada.Substring(inicio, 2);
+                    string lexema = entrada.Substring(inicio, 2); // Extrae operador compuesto de dos caracteres
                     return new Token(TipoToken.OperadorRelacional, lexema, linea, columnaInicio);
                 }
 
-                string simple = entrada.Substring(inicio, 1);
+                string simple = entrada.Substring(inicio, 1); // Extrae operador simple de un solo carácter
                 return new Token(TipoToken.OperadorRelacional, simple, linea, columnaInicio);
             }
-
             return null;
         }
 

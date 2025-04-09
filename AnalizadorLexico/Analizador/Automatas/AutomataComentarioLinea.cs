@@ -6,14 +6,14 @@ namespace AnalizadorLexico.Analizador.Automatas
     {
         public bool PuedeAnalizar(char actual)
         {
-            return actual == '#';
+            return actual == '#'; // Solo puede analizar si el carácter es '#'
         }
 
         public Token? Reconocer(string entrada, ref int posicion, ref int linea, ref int columna)
         {
             int inicio = posicion;
             int columnaInicio = columna;
-
+            // Avanza mientras no encuentre un salto de línea o el final de la entrada
             while (posicion < entrada.Length && entrada[posicion] != '\n')
             {
                 Avanzar(entrada, ref posicion, ref linea, ref columna);

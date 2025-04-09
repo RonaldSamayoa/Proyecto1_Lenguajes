@@ -21,7 +21,7 @@ namespace AnalizadorLexico.Vistas
         public Window3(List<Token> tokens)
         {
             InitializeComponent();
-            lstTokens.ItemsSource = tokens;
+            lstTokens.ItemsSource = tokens; // Asigna la lista de tokens a la fuente de datos del ListBox
         }
     }
 }

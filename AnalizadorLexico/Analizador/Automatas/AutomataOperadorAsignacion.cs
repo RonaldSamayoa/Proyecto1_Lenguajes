@@ -11,7 +11,7 @@ namespace AnalizadorLexico.Analizador.Automatas
     {
         public bool PuedeAnalizar(char actual)
         {
-            return actual == '=';
+            return actual == '=';  // Solo analiza el signo igual para asignación
         }
 
         public Token? Reconocer(string entrada, ref int posicion, ref int linea, ref int columna)
@@ -19,12 +19,11 @@ namespace AnalizadorLexico.Analizador.Automatas
             int inicio = posicion;
             int columnaInicio = columna;
 
-            if (posicion < entrada.Length && entrada[posicion] == '=')
+            if (posicion < entrada.Length && entrada[posicion] == '=') // Verifica si el carácter actual es '='
             {
                 Avanzar(entrada, ref posicion, ref linea, ref columna);
                 return new Token(TipoToken.OperadorAsignacion, "=", linea, columnaInicio);
             }
-
             return null;
         }
 
