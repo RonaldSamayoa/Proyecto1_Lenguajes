@@ -19,6 +19,7 @@ namespace AnalizadorLexico.Vistas
             InitializeComponent();
             txtCodigoFuente.TextChanged += TxtCodigoFuente_TextChanged;
             txtCodigoFuente.SelectionChanged += TxtCodigoFuente_SelectionChanged;
+            this.Closing += Window1_Closing;
         }
 
         private bool HayCambiosSinGuardar()
@@ -113,9 +114,60 @@ namespace AnalizadorLexico.Vistas
 
         private void Salir_Click(object sender, RoutedEventArgs e)
         {
-            this.Close();
-        }
+            if (HayCambiosSinGuardar())
+            {
+                MessageBoxResult resultado = MessageBox.Show(
+                    "¿Desea guardar los cambios antes de salir?",
+                    "Confirmación",
+                    MessageBoxButton.YesNoCancel,
+                    MessageBoxImage.Warning);
 
+                if (resultado == MessageBoxResult.Yes)
+                {
+                    Guardar_Click(sender, e); // Intenta guardar
+                    if (HayCambiosSinGuardar()) // Si después de guardar aún hay cambios (usuario canceló el guardado)
+                    {
+                        return; // No cerrar
+                    }
+                    this.Close(); // Cerrar después de guardar
+                }
+                else if (resultado == MessageBoxResult.No)
+                {
+                    this.Close(); // Cerrar sin guardar
+                }
+                // Si es Cancel, no hace nada
+            }
+            else
+            {
+                this.Close(); // Cerrar directamente si no hay cambios
+            }
+        }
+        // Nuevo método para manejar el cierre con la X
+        private void Window1_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            if (HayCambiosSinGuardar())
+            {
+                MessageBoxResult resultado = MessageBox.Show(
+                    "¿Desea guardar los cambios antes de salir?",
+                    "Confirmación",
+                    MessageBoxButton.YesNoCancel,
+                    MessageBoxImage.Warning);
+
+                if (resultado == MessageBoxResult.Yes)
+                {
+                    Guardar_Click(null, null);
+                    if (HayCambiosSinGuardar())
+                    {
+                        e.Cancel = true; // Cancela el cierre si aún hay cambios
+                    }
+                }
+                else if (resultado == MessageBoxResult.Cancel)
+                {
+                    e.Cancel = true; // Cancela el cierre
+                }
+                // Si es No, permite el cierre (e.Cancel sigue siendo false)
+            }
+        } 
         private void Copiar_Click(object sender, RoutedEventArgs e)
         {
             txtCodigoFuente.Copy();
