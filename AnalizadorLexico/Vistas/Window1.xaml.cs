@@ -204,7 +204,7 @@ namespace AnalizadorLexico.Vistas
                 // Verificar si hay errores
                 var errores = tokens.Where(t => t.Tipo == Modelos.TipoToken.Error).ToList();
 
-                // Usar Dispatcher.Invoke para actualizar la UI de manera segura
+                // Usar Dispatcher.Invoke para actualizar la interfaz de usuario de manera segura
                 Dispatcher.Invoke(() =>
                 {
                     if (errores.Any())
@@ -231,6 +231,5 @@ namespace AnalizadorLexico.Vistas
             var ventanaBuscar = new Window4(txtCodigoFuente);
             ventanaBuscar.ShowDialog();
         }
-
     }
 }

@@ -43,6 +43,8 @@ namespace AnalizadorLexico.Analizador.Automatas
             columna = columnaInicio;
             return null;
         }
+        private bool EsLetra(char c) =>
+            (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
 
         private void Avanzar(string entrada, ref int posicion, ref int linea, ref int columna)
         {
@@ -60,8 +62,5 @@ namespace AnalizadorLexico.Analizador.Automatas
                 }
             }
         }
-
-        private bool EsLetra(char c) =>
-            (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
     }
 }

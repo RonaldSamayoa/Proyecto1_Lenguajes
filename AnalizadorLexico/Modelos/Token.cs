@@ -17,7 +17,7 @@
 
         public override string ToString()
         {
-            return $"[L{Linea},C{Columna}] {Tipo}: {Valor}";
+            return $"[Linea{Linea},Columna{Columna}] {Tipo}: {Valor}";
         }
     }
 }

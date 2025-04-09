@@ -80,7 +80,6 @@ namespace AnalizadorLexico.Vistas
             txtResultado.Text = $"No. Repeticiones: {coincidencias} {(coincidencias == 1 ? "vez" : "veces")}";
         }
 
-
         private void Cerrar_Click(object sender, RoutedEventArgs e)
         {
             this.Close();

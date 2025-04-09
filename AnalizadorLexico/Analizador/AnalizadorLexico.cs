@@ -21,11 +21,11 @@ namespace AnalizadorLexico.Analizador
                 new AutomataLiteral(),
                 new AutomataPalabraReservada(),
                 new AutomataIdentificador(),
-                new AutomataNumero(),
                 new AutomataOperadorRelacional(),
                 new AutomataOperadorLogico(),
                 new AutomataOperadorAritmetico(),
                 new AutomataOperadorAsignacion(),
+                new AutomataNumero(),
                 new AutomataSignosAgrupacion(),
                 new AutomataSignosPuntuacion(),
                 new AutomataError()
@@ -100,9 +100,6 @@ namespace AnalizadorLexico.Analizador
                 }
             }
         }
-
-
-
         public List<Token> ObtenerTokens()
         {
             return tokens;

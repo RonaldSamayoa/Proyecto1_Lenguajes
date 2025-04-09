@@ -30,7 +30,11 @@ namespace AnalizadorLexico.Analizador.Automatas
             string lexema = entrada.Substring(inicio, posicion - inicio);
             return new Token(TipoToken.Identificador, lexema, linea, columnaInicio);
         }
+        private bool EsLetra(char c) =>
+            (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
 
+        private bool EsNumero(char c) =>
+            c >= '0' && c <= '9';
         private void Avanzar(string entrada, ref int posicion, ref int linea, ref int columna)
         {
             if (posicion < entrada.Length)
@@ -47,11 +51,5 @@ namespace AnalizadorLexico.Analizador.Automatas
                 }
             }
         }
-
-        private bool EsLetra(char c) =>
-            (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z');
-
-        private bool EsNumero(char c) =>
-            c >= '0' && c <= '9';
     }
 }
